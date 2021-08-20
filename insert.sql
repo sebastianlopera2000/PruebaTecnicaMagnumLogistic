@@ -186,4 +186,4 @@ insert into pais values ('Zambia')
 insert into pais values ('Zimbabue')
 
 
-select nombres, apellidos, fechaNacim, fechaFallec, paisNacim, pais.id, nombre from persona inner join pais on pais.id=persona.paisNacim
+select nombres, apellidos, fechaNacim, fechaFallec, paisNacim, pais.nombre from persona inner join pais on pais.id=persona.paisNacim
